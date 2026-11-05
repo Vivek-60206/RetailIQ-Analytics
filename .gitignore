@@ -1,0 +1,41 @@
+# ==============================
+# Python Environment
+# ==============================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ==============================
+# Node.js & React
+# ==============================
+node_modules/
+dist/
+.vite/
+coverage/
+npm-debug.log*
+
+# ==============================
+# IDE & Editor Files
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Cache & Temporary Files
+# ==============================
+.streamlit/cache/
+*.log
+.DS_Store
+Thumbs.db
